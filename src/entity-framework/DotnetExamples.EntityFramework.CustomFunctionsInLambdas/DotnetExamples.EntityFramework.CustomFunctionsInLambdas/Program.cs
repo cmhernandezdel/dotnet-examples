@@ -12,7 +12,7 @@ builder.Services.AddEndpoints();
 WebApplication app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
-app.UseHttpsRedirection();<
+app.UseHttpsRedirection();
 app.MapEndpoints();
 
 using IServiceScope scope = app.Services.CreateScope();
