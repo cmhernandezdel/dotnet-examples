@@ -1,0 +1,6 @@
+@DotnetExamples.EntityFramework.CustomFunctionsInLambdas_HostAddress = http://localhost:5197
+
+GET {{DotnetExamples.EntityFramework.CustomFunctionsInLambdas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
